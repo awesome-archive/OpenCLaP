@@ -21,9 +21,9 @@ OpenCLaP（Open **C**hinese **La**nguage **P**re-trained Model Zoo）是由清�
 
 | 名称         | 基础模型  | 数据来源                            | 训练数据大小 | 词表大小 | 模型大小 | 下载地址 |
 | ------------ | --------- | ----------------------------------- | ------------ | -------- | -------- | -------- |
-| 民事文书BERT | bert-base | 全部民事文书                        | 2654万篇文书 | 22554    | 370MB | [点我下载](https://thunlp.oss-cn-qingdao.aliyuncs.com/bert/ms.zip)     |
-| 刑事文书BERT | bert-base | 全部刑事文书                        | 663万篇文书  | 22554  | 370MB  | [点我下载](https://thunlp.oss-cn-qingdao.aliyuncs.com/bert/xs.zip)     |
-| 百度百科BERT | bert-base | [百度百科](http://baike.baidu.com/) | 903万篇词条  | 22166  | 367MB  | [点我下载](https://thunlp.oss-cn-qingdao.aliyuncs.com/bert/baike.zip)     |
+| 民事文书BERT | bert-base | 全部民事文书                        | 2654万篇文书 | 22554    | 370MB | [点我下载](https://thunlp.s3.cn-north-1.amazonaws.com.cn/plm/ms.zip)     |
+| 刑事文书BERT | bert-base | 全部刑事文书                        | 663万篇文书  | 22554  | 370MB  | [点我下载](https://thunlp.s3.cn-north-1.amazonaws.com.cn/plm/xs.zip)     |
+| 百度百科BERT | bert-base | [百度百科](http://baike.baidu.com/) | 903万篇词条  | 22166  | 367MB  | [点我下载](https://thunlp.s3.cn-north-1.amazonaws.com.cn/plm/baike.zip)     |
 
 ## 使用方式
 
@@ -41,6 +41,19 @@ unzip ms.zip
 ## 项目网站
 
 请访问 http://zoo.thunlp.org 以获得更多有关信息。
+
+## 引用
+
+Bibtex：
+
+```tex
+@techreport{zhong2019openclap,
+  title={Open Chinese Language Pre-trained Model Zoo},
+  author={Zhong, Haoxi and Zhang, Zhengyan and Liu, Zhiyuan and Sun, Maosong},
+  year={2019},
+  url = "https://github.com/thunlp/openclap",
+}
+```
 
 ## 作者与致谢
 
